@@ -1,0 +1,110 @@
+/** @format */
+
+.BackgroundImage {
+  min-height: 100vh;
+  background-image: url("../../Images/login.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.LoginDiv {
+  position: absolute;
+  right: 10%;
+  border-radius: 20px;
+  top: 10%;
+  width: 533px;
+  background-color: #fff;
+  padding-bottom: 100px;
+}
+.LoginDiv .upper {
+  background-image: url("../../Images/Rectangle\ 51.png");
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.LoginDiv .upper .logo {
+  width: 150px;
+  display: block;
+  padding-top: 10% !important;
+  margin: auto;
+}
+
+.LoginDiv .down .connect {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.LoginDiv .down .icons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.LoginDiv .down .icons div {
+  width: 2px;
+  background-color: #d2d2d2;
+}
+.LoginDiv .down .icons i {
+  font-size: 30px;
+}
+.LoginDiv .down .inputs {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.LoginDiv .down .inputs input {
+  outline: none;
+  border: none !important;
+  border-bottom: 1px solid black !important;
+}
+.LoginDiv .down .inputs div {
+  position: relative;
+  width: 20px;
+}
+.LoginDiv .down .inputs p {
+  font-size: 20px;
+  font-weight: 300;
+  position: absolute;
+  top: 5px;
+}
+
+.LoginDiv button {
+  width: 280px;
+  font-size: 18px;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.LoginDiv .btn-1 {
+  color: #099e8c;
+  border: 2px solid #099e8c;
+  background-color: #fff;
+  font-weight: 500;
+  transition: 0.5s;
+}
+.LoginDiv .btn-2 {
+  color: #fff;
+  border: 2px solid #099e8c;
+  background-color: #099e8c;
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+.LoginDiv .btn-1:hover {
+  color: #fff;
+  border: 2px solid #099e8c;
+  background-color: #099e8c;
+  font-weight: 500;
+}
+.LoginDiv .btn-2:hover {
+  color: #099e8c;
+  border: 2px solid #099e8c;
+  background-color: #fff;
+  font-weight: 500;
+}
